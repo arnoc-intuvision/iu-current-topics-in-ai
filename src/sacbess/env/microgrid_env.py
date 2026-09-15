@@ -1,4 +1,4 @@
-"""Microgrid Gymnasium environment: grid + solar PV + BESS + site load (site 10128, 15-min SAST).
+"""Microgrid Gymnasium environment: grid + solar PV + BESS + site load (test-site-01, 15-min SAST).
 
 Reward and dynamics consume the TRUE canonical series only; observations expose the raw
 sensor channels that the corruption wrapper (and later the reliability stage) operates on.

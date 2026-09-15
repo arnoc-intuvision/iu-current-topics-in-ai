@@ -1,7 +1,7 @@
 [project]
 name = "sacbess"
 version = "0.1.0"
-description = "SAC BESS dispatch under naturalistic sensor degradation (site 10128 VCOM study)"
+description = "SAC BESS dispatch under naturalistic sensor degradation (test-site-01 VCOM study)"
 requires-python = ">=3.11"
 dependencies = [
   "gymnasium>=1.0",

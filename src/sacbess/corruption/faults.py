@@ -1,4 +1,4 @@
-"""F1-F6 fault parameters by severity, fitted to the site 10128 13-month audit.
+"""F1-F6 fault parameters by severity, fitted to the test-site-01 13-month audit.
 
 Baseline (severity 2) rates derive from measured counts over 38,016 intervals:
 F1 ~29 gaps/meter -> p_onset 7.6e-4/step, longest 328 h;
