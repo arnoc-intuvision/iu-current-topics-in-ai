@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# raw site data: commercially sensitive, not published (data/processed/ IS committed)
+data/vcom_data_export.csv
+
+# internal working documents
+research_plan/
+
+# SAC checkpoints: 64 MB each, regenerable via scripts/run_protocol.py train
+runs/protocol/*.zip
+runs/**/ckpt_*.zip
+runs/**/buffer_*.npz

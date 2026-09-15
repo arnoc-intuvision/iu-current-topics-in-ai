@@ -1,0 +1,7 @@
+season,months,tou_slot,rate_c_per_kwh
+high_demand,Jun-Aug,p,624.05
+high_demand,Jun-Aug,s,189.08
+high_demand,Jun-Aug,o,102.7
+low_demand,Sep-May,p,203.57
+low_demand,Sep-May,s,140.1
+low_demand,Sep-May,o,88.91

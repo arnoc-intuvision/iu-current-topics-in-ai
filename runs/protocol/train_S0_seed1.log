@@ -1,0 +1,3 @@
+collected 30000 B0 demo transitions (decay 100000)
+saved /Users/arnoc/Visual Studio Code/iu-current-topics-in-ai/runs/protocol/sac_S0_seed1.zip | policy params: 5411846
+episode log: /Users/arnoc/Visual Studio Code/iu-current-topics-in-ai/runs/protocol/episodes_S0_seed1.csv

@@ -1,0 +1,7 @@
+/Users/arnoc/Visual Studio Code/iu-current-topics-in-ai/src/sacbess/reliability/features.py:126: RuntimeWarning: All-NaN slice encountered
+  med_v = np.nanmedian(vw, axis=0) if not np.isnan(vw).all() else np.full(N_SENSOR, np.nan)
+/Users/arnoc/Visual Studio Code/iu-current-topics-in-ai/src/sacbess/reliability/features.py:126: RuntimeWarning: All-NaN slice encountered
+  med_v = np.nanmedian(vw, axis=0) if not np.isnan(vw).all() else np.full(N_SENSOR, np.nan)
+collected 30000 B0 demo transitions (decay 100000)
+saved /Users/arnoc/Visual Studio Code/iu-current-topics-in-ai/runs/protocol/sac_S3_seed2.zip | policy params: 5534726
+episode log: /Users/arnoc/Visual Studio Code/iu-current-topics-in-ai/runs/protocol/episodes_S3_seed2.csv

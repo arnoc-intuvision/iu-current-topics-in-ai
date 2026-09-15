@@ -1,0 +1,55 @@
+{
+  "pm0_a": {
+    "register": "pm0_a_grid_active_energy_import",
+    "interval_kwh_bound": 300.0,
+    "null_intervals": 501,
+    "spike_or_negative_intervals": 1,
+    "max_clean_kwh_per_interval": 200.0
+  },
+  "pm0_b": {
+    "register": "pm0_b_grid_active_energy_import",
+    "interval_kwh_bound": 75.0,
+    "null_intervals": 295,
+    "spike_or_negative_intervals": 0,
+    "max_clean_kwh_per_interval": 43.9
+  },
+  "pm1": {
+    "register": "pm1_solar_active_energy_export",
+    "interval_kwh_bound": 300.0,
+    "null_intervals": 500,
+    "spike_or_negative_intervals": 3,
+    "max_clean_kwh_per_interval": 226.9
+  },
+  "irr1_sensor_poa_irradiance": {
+    "out_of_range_or_null": 0
+  },
+  "irr2_sensor_poa_irradiance": {
+    "out_of_range_or_null": 0
+  },
+  "vcom_satellite_poa_irradiance": {
+    "out_of_range_or_null": 0
+  },
+  "index": {
+    "start": "2025-08-01 00:15:00",
+    "end": "2026-09-01 00:00:00",
+    "rows": 38016,
+    "resolution_min": 15,
+    "timezone": "SAST (UTC+2, no DST); solar-noon check: satellite POA peaks hour 12"
+  },
+  "islanded": {
+    "steps": 1064,
+    "runs": 34,
+    "longest_hours": 29.75
+  },
+  "true_series": {
+    "load_kw": {
+      "mean": 611.5798821548823,
+      "max": 1044.3999999999999,
+      "max_30min_demand_kw": 1028.1999999999998
+    },
+    "pv_kw": {
+      "mean": 174.9754577020202,
+      "max": 907.6
+    }
+  }
+}

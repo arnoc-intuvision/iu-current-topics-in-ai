@@ -1,0 +1,24 @@
+[project]
+name = "sacbess"
+version = "0.1.0"
+description = "SAC BESS dispatch under naturalistic sensor degradation (site 10128 VCOM study)"
+requires-python = ">=3.11"
+dependencies = [
+  "gymnasium>=1.0",
+  "stable-baselines3>=2.4",
+  "torch>=2.5",
+  "numpy",
+  "pandas<3",
+  "scipy",
+  "pyarrow",
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
